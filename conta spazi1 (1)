@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include"contaspazi.h"
+
+int main(void){
+    char *test = "ciao mamma questa è una prova";
+    size_t n_spazi = conta_spazi(test);
+    printf("%s\n", test);
+    printf("spazi n: %1d\n", n_spazi);
+    return 0;
+}
